@@ -66,3 +66,18 @@ main
 	ook(9)
 }
 ```
+
+Functions can return one value each.
+
+```
+ook: a
+{
+	return <- add(a 1)
+}
+
+main
+{
+	a <- ook(9)
+	print(a)
+}
+```
