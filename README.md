@@ -10,7 +10,7 @@ The syntax of IO is fairly simple. This is an example function named "hello" tha
 hello: a b
 {
 	print(a)
-    print(b)
+	print(b)
 }
 ```
 
